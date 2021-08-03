@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    @apply py-2 px-4 rounded;
+}
+
+.btn-blue {
+    @apply bg-blue-500 text-white;
+}
+
+.btn-blue:hover {
+    @apply bg-blue-700;
+}
+
+.card {
+    @apply rounded overflow-hidden shadow-lg;
+}
+
+.button-nav{
+    @apply  bg-white hover:bg-gray-400 hover:text-white px-2 py-2 rounded-full inline uppercase;
+}
+
+.tittle-header{
+    @apply text-white uppercase;
+}
+
+.rocket{
+    background-image: url('../img/dragon.jpg');
+}
+
+.image-about{
+    background-image: url('../img/rocket.jpg');
+}
+
+.info-button{
+    @apply  hover:text-white uppercase rounded-b-lg;
+}
+
+.tarjet-div{
+    @apply grid grid-cols-1  rounded-lg w-11/12;
+}
+
